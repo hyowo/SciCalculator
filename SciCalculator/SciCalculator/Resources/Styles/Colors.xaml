@@ -16,5 +16,4 @@
     <Color x:Key="SecondaryColor">White</Color>
     <Color x:Key="PageBackgroundColor">#16191E</Color>
     <Color x:Key="BorderColor">#337777</Color>
-
 </ResourceDictionary>
