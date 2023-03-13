@@ -9,8 +9,8 @@ public static class MauiProgram
 			.UseMauiApp<App>()
 			.ConfigureFonts(fonts =>
 			{
-				fonts.AddFont("Cairo-Light.ttf", "CairoLight");
-				fonts.AddFont("Cairo-ExtraLight.ttf", "CairoExtraLight");
+				fonts.AddFont("Cairo-Light.ttf", "RegularFont");
+				fonts.AddFont("Cairo-ExtraLight.ttf", "LightFont");
 			});
 
 		return builder.Build();

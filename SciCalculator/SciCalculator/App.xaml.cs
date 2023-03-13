@@ -3,6 +3,7 @@ using Microsoft.UI;
 using Microsoft.UI.Windowing;
 using Windows.Graphics;
 #endif
+using SciCalculator.Views;
 
 namespace SciCalculator;
 
@@ -22,6 +23,6 @@ public partial class App : Application
 			AppWindow.GetFromWindowId(windowId).Resize(new SizeInt32(540, 1000));
 		});
 #endif
-        MainPage = new AppShell() {};
+        MainPage = new CalculatorPage() {};
 	}
 }
